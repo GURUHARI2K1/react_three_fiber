@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect } from "react";
 import { useImgContext } from "./hoocks/useImgContext";
 import Model from "./Model";
-
+import saveAs from "file-saver"
 
 function App() {
   const { images } = useImgContext();
