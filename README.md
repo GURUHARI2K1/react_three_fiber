@@ -3,6 +3,7 @@
 
 Using react js and three fiber libraries to create a react app that loads 3D models and capture images of them in different angles.
 
+It takes about 30 seconds to capture 60 images of the model in different angles.
 
 ## To run
 
