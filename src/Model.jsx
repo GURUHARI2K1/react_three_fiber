@@ -49,7 +49,6 @@ function Model({modelPath}){
               };
             
             saveImage(canvas, `image${counter}.png`)
-            console.log(images.length)
             setCounter(frameCount);
         }
     })

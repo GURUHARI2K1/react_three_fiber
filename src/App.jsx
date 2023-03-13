@@ -7,9 +7,6 @@ import saveAs from "file-saver"
 
 function App() {
   const { images } = useImgContext();
-  useEffect(()=>{
-    if(images) console.log(images[0]);
-  },[images])
   
   const handleSample = ()=>{
     images.slice(20,24).map((img, index)=>{

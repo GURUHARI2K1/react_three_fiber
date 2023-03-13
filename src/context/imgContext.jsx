@@ -5,7 +5,6 @@ export const ImgContext = createContext();
 export const imgReducer = (state, action)=>{
     switch(action.type){
         case 'ADD':
-            console.log("recieved")
             return {images: action.payload}
         default:
             return state
